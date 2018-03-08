@@ -1,4 +1,10 @@
-# Github+Hexo 个人网站搭建
+---
+title: Hexo+Github小白搭建个人网站
+date: 2018-03-08 15:13:04
+tags:TechBlog
+---
+
+
 
 ## 前言：
 
@@ -255,11 +261,49 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 ![博客1 31](http://p4wix1t4z.bkt.clouddn.com/image/png/%E5%8D%9A%E5%AE%A21%2031.png)
 
+
+
 ## 另一台电脑更新博客
 
 同样新建文件夹 clone项目  通过Git bash依次执行npm install hexo、npm install 和 npm install hexo-deployer-git
 完成。
 
+
+
+## 常用的Git命令
+
+git clone 你的github项目地址  克隆项目
+
+git add . 增加本地文件到暂存区
+
+git commit -m "提交日志" 提交代码
+
+git push origin hexo 推送到远程hexo分支
+
+git pull origin hexo 更新本地代码
+
+
+
 ## 常用的Hexo 命令
 
-https://zhuanlan.zhihu.com/p/26625249
+hexo n "你想新建的博客名"
+
+hexo clean
+
+hexo g 生成网站
+
+hexo d 发布网站
+
+
+
+参考文章：
+
+1. https://zhuanlan.zhihu.com/p/26625249 作者：吴润
+2. https://www.zhihu.com/question/21193762 作者:CrazyMilk
+3. https://hexo.io/zh-cn/docs/index.html hexo官方文档
+4. https://www.jianshu.com/p/ada6b90f0f2e 作者：droidlover
+5. https://www.cnblogs.com/hope-markup/p/6679564.html 作者：前端段子手
+6. https://www.jianshu.com/p/0b1fccce74e0 作者：Michaelhbjian
+7. https://newsn.net/say/hexo-blog-install.html 作者：sunan
+8. http://www.ruanyifeng.com/blog/2016/01/npm-install.html 作者：阮一峰
+
