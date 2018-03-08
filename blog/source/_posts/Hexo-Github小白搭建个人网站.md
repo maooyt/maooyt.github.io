@@ -297,7 +297,7 @@ hexo d 发布网站
 
 
 
-error可能原因：
+## error可能原因：
 
 1. ERROR Process failed: _posts/Hexo-Github小白搭建个人网站.md
    YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1
@@ -307,7 +307,8 @@ error可能原因：
 
 
 
-参考文章：
+
+## 参考文章：
 
 1. https://zhuanlan.zhihu.com/p/26625249 作者：吴润
 2. https://www.zhihu.com/question/21193762 作者:CrazyMilk
