@@ -289,7 +289,7 @@ git pull origin hexo 更新本地代码
 
 hexo n "你想新建的博客名"
 
-hexo clean
+hexo clean 本地清除缓存
 
 hexo g 生成网站
 
