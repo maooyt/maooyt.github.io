@@ -262,7 +262,15 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 ![博客1 31](http://p4wix1t4z.bkt.clouddn.com/image/png/%E5%8D%9A%E5%AE%A21%2031.png)
 
+### 菜单栏设置
 
+打开blog目录下_config.yml文件，找到menu项，我的设置如下：
+
+以tags为例：原来1处所有标签都加上了#，也就是被注释了，页面上显示不了，去除前面的#后页面上就能显示。2处对应着项目中文件的位置，此处表示tags标签对应的页面在source文件夹下tags文件夹中，页面是index.html页面；
+
+详细生成页面过程参考http://blog.csdn.net/qq_23435721/article/details/50938828
+
+![博客1 32](http://p4wix1t4z.bkt.clouddn.com/image/png/%E5%8D%9A%E5%AE%A21%2032.png)
 
 ## 另一台电脑更新博客
 
