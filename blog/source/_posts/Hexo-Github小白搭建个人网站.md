@@ -297,6 +297,16 @@ hexo d 发布网站
 
 
 
+error可能原因：
+
+1. ERROR Process failed: _posts/Hexo-Github小白搭建个人网站.md
+   YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1
+
+   **原因**：the reason is that there is not a space between `tags` and tag name. like this
+   `tags:PHP` ==> `tags: PHP`
+
+
+
 参考文章：
 
 1. https://zhuanlan.zhihu.com/p/26625249 作者：吴润
